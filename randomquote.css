@@ -1,0 +1,67 @@
+body {
+  background-image:url("http://higher-resolution-photo.com/wp-content/uploads/2016/03/High_quality_space_photos_10.jpg");
+  background-size:cover;
+}
+
+h1 {
+  color: white;
+  font-family: "comic sans ms";  
+  font-size: 50px;
+}
+
+p {
+  color: white;
+  font-family:"Times new roman";
+  font-style: italic;
+  font-size: 20px;  
+}
+
+.quotes {
+  background-color: gray;
+  width: 33%;
+  margin-right: auto;
+  margin-left: auto;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 25px;
+  padding:20px;
+  height: auto;
+  color: white;
+}
+
+.quote {
+  font-size: 15px;
+  font-family: "comic sans ms";
+}
+
+.author {
+ font-size: 20px;
+  font-style: italic;  
+}
+
+#newquote {
+ font-family: "comic sans ms";
+  background-color:white;
+  border-radius: 15px;
+  font-style: italic;
+  cursor: pointer; 
+}
+
+#tweet{
+  margin-left: 10px;
+  border-radius: 20px;
+  border-color: blue;
+}
+
+#newquote:hover {
+  background: #bfbfbf;
+ }
+
+#name {
+  margin-top: 10px;
+}
+
+#container {
+  margin-top: 100px;
+}
